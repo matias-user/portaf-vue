@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+:root{
+    --color-primary: #04198C;
+    --color-primary-light: #073BD9;
+    --color-secondary: #F27405;
+    --white: #fff;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+}
+/* Color Theme Swatches in Hex */
+.Diseño-gráfico-1-hex { color: #0528F2; }
+.Diseño-gráfico-2-hex { color: #04198C; }
+.Diseño-gráfico-3-hex { color: #073BD9; }
+.Diseño-gráfico-4-hex { color: #F27405; }
+.Diseño-gráfico-5-hex { color: #8C5535; }
+
