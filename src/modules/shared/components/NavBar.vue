@@ -1,14 +1,14 @@
 <template>
   <nav class="nav" >
       <span  class="nav__title" >
-          Desarrollador web <span class="nav__title--modify" ></span> Matías Abarca
+          Desarrollador web <span class="nav__title--modify" ></span>Matías Abarca
       </span>
 
       <div class="nav__links">
-      <a class="nav__link" href="#">Inicio</a>
-      <a class="nav__link" href="#">Proyectos</a>
-      <a class="nav__link" href="#">Contacto</a>
-      <a class="nav__link" href="#">Nose aun</a>
+      <router-link :to="{ name: 'sobre-mi'}" ><a class="nav__link" href="#">Inicio</a></router-link>
+      <router-link :to="{name: 'proyectos'}" ><a class="nav__link" >Proyectos</a></router-link>
+      <router-link to="" ><a class="nav__link" href="#">Contacto</a></router-link>
+      <router-link to="" ><a class="nav__link" href="#">Nose aun</a></router-link>
 
       </div>
 
@@ -46,10 +46,11 @@ export default {
   }
   .nav__title{
     margin-left: 1rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
     color: var(--white);
     transition: .2s ease-in all;
+    text-shadow: 2px 2px 6px black;
   }
   .nav__links{
     display: flex;
@@ -61,6 +62,9 @@ export default {
     transition: .2s ease-in all;
     padding: 10px 30px;
     border-radius:3px ;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
 
   }
   .nav__link:hover{
@@ -69,7 +73,8 @@ export default {
   }
   .nav__title--modify{
       margin-right: 1rem;
-    }
+      
+}
   @media( max-width: 480px ){
     .nav__title{
       display: none;

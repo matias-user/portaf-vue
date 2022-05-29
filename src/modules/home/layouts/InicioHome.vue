@@ -21,8 +21,9 @@ export default {
 <style scoped>
 .container{
     width: 90%;
+    max-width: 1200px;
     margin: 0 auto;
-    height: calc(100vh - 100px);
+    max-height: 100%;
 }
     div{
         margin-top: 100px;
