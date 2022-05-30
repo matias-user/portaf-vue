@@ -3,13 +3,16 @@
 :root{
     --color-primary: #04198C;
     --color-primary-light: #073BD9;
-    --color-secondary: #F27405;
+    --color-secondary: #8C5535;
+    --color-secondary-light: #F27405;
     --white: #fff;
 }
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #f2f2f2;
+    height: calc(100vh - 100px) ;
+    background: linear-gradient(180deg, white 50%, #f27405ad 50%);
+    position: relative;
 }
 /* Color Theme Swatches in Hex */
 .Diseño-gráfico-1-hex { color: #0528F2; }

@@ -1,3 +1,5 @@
+import routerProyecto from '@/modules/proyectos/router'
+
 
 const routerHome = {
     path:'/home',
@@ -10,11 +12,8 @@ const routerHome = {
         },
         {
             path:'/proyectos',
-            name:'proyectos',
-            component: () => import('../pages/ProyectosPage.vue')
-
-        }
-    ]
+            ...routerProyecto
+        },    ]
 }
 
 export default routerHome

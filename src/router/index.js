@@ -6,10 +6,12 @@ const routes = [
     path:'/home',
     ...routerHome
   },
+  
   {
     path:'',
     redirect:'/home'
-  }
+  },
+  
 ]
 
 const router = createRouter({

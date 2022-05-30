@@ -6,7 +6,7 @@
 
       <div class="nav__links">
       <router-link :to="{ name: 'sobre-mi'}" ><a class="nav__link" href="#">Inicio</a></router-link>
-      <router-link :to="{name: 'proyectos'}" ><a class="nav__link" >Proyectos</a></router-link>
+      <router-link to="" ><a class="nav__link" >Proyectos</a></router-link>
       <router-link to="" ><a class="nav__link" href="#">Contacto</a></router-link>
       <router-link to="" ><a class="nav__link" href="#">Nose aun</a></router-link>
 
